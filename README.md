@@ -51,13 +51,19 @@ par A et par B sur la même fonction `authenticate()`.
 
 Le point important est que A et B sont partis du même commit de base C0, puis ont chacun modifié la même zone du fichier `auth.py`.
 
-### Captures de la création des branches et de l’état initial
+### 2.1. Création des branches
 
 ![Création des branches](assets/02_branch_creation.png)
 
+### 2.2. Commit initial C0
+
 ![Commit initial C0](assets/02_commit_C0.png)
 
+### 2.3. Modification du développeur A
+
 ![Modification du développeur A](assets/02_devA_modification.png)
+
+### 2.4. Fusion de feature-login dans main
 
 ![Fusion de feature-login dans main](assets/02_merge_feature_login_into_main.png)
 
@@ -182,14 +188,10 @@ Le bon réflexe est de :
 
 ---
 
-## 8. Résumé visuel des captures
+## Annexes
 
-![Création des branches](assets/02_branch_creation.png)
-
-![Commit initial C0](assets/02_commit_C0.png)
-
-![Modification de A sur auth.py](assets/02_devA_modification.png)
-
-![Fusion de feature-login dans main](assets/02_merge_feature_login_into_main.png)
-
-![Conflit de fusion lors du merge de feature-security](assets/02_merge_feature_security_into_main.png)
+- [02_branch_creation.png](assets/02_branch_creation.png)
+- [02_commit_C0.png](assets/02_commit_C0.png)
+- [02_devA_modification.png](assets/02_devA_modification.png)
+- [02_merge_feature_login_into_main.png](assets/02_merge_feature_login_into_main.png)
+- [02_merge_feature_security_into_main.png](assets/02_merge_feature_security_into_main.png)
