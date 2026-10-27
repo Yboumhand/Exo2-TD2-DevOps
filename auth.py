@@ -1,2 +1,2 @@
 def authenticate(password):
-  return len(password) >= 6
+  return len(password) >= 8
